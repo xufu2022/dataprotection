@@ -8,7 +8,7 @@ builder.Services.AddClientForMvc(configuration, "Crm");
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
-
+app.ApplyProtectionDb("Crm");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

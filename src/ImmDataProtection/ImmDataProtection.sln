@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmDataProtectionTest", "Im
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProtectionWeb", "DataProtectionWeb", "{62888677-6873-4A9A-9D2C-87DC45786F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmWebDataProtection", "CrmWebDataProtection\CrmWebDataProtection.csproj", "{C788011F-9075-4ADA-85AC-B1DEC3435ED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrmWebDataProtection", "CrmWebDataProtection\CrmWebDataProtection.csproj", "{C788011F-9075-4ADA-85AC-B1DEC3435ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerDataProtection", "TaskManagerDataProtection\TaskManagerDataProtection.csproj", "{6EB94206-822C-43CE-98FE-87916B4F5639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerDataProtection", "TaskManagerDataProtection\TaskManagerDataProtection.csproj", "{6EB94206-822C-43CE-98FE-87916B4F5639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmWebMvc1", "CrmWebMvc1\CrmWebMvc1.csproj", "{7274DF48-2445-462F-ACD0-CD7B2E791A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrmWebMvc1", "CrmWebMvc1\CrmWebMvc1.csproj", "{7274DF48-2445-462F-ACD0-CD7B2E791A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmApi", "CrmApi\CrmApi.csproj", "{CD6CAD47-9E88-4964-9840-936295185016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6CAD47-9E88-4964-9840-936295185016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6CAD47-9E88-4964-9840-936295185016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6CAD47-9E88-4964-9840-936295185016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6CAD47-9E88-4964-9840-936295185016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{C788011F-9075-4ADA-85AC-B1DEC3435ED0} = {62888677-6873-4A9A-9D2C-87DC45786F88}
 		{6EB94206-822C-43CE-98FE-87916B4F5639} = {62888677-6873-4A9A-9D2C-87DC45786F88}
 		{7274DF48-2445-462F-ACD0-CD7B2E791A96} = {62888677-6873-4A9A-9D2C-87DC45786F88}
+		{CD6CAD47-9E88-4964-9840-936295185016} = {62888677-6873-4A9A-9D2C-87DC45786F88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8B1362C-5F73-4A67-9F7E-FD6BA8B2B662}

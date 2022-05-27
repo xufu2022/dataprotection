@@ -12,6 +12,7 @@ namespace DataProtectionLib
     {
         None,
         Crm,
+        CrmApi,
         TaskManager
     }
 

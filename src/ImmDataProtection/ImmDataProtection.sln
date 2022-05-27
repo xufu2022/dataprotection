@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmDataProtection", "ImmDataProtection\ImmDataProtection.csproj", "{B584DADA-A9B4-4308-A645-E5DB14ED872C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmDataProtection", "ImmDataProtection\ImmDataProtection.csproj", "{B584DADA-A9B4-4308-A645-E5DB14ED872C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProtectionLib", "DataProtectionLib\DataProtectionLib.csproj", "{3C21EA2D-698A-4B9E-9DA1-E875D5FA0425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmDataProtectionTest", "ImmDataProtectionTest\ImmDataProtectionTest.csproj", "{30835534-08D1-4F81-8571-7854B10A0AA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProtectionWeb", "DataProtectionWeb", "{62888677-6873-4A9A-9D2C-87DC45786F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmWebDataProtection", "CrmWebDataProtection\CrmWebDataProtection.csproj", "{C788011F-9075-4ADA-85AC-B1DEC3435ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerDataProtection", "TaskManagerDataProtection\TaskManagerDataProtection.csproj", "{6EB94206-822C-43CE-98FE-87916B4F5639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmWebMvc1", "CrmWebMvc1\CrmWebMvc1.csproj", "{7274DF48-2445-462F-ACD0-CD7B2E791A96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,34 @@ Global
 		{B584DADA-A9B4-4308-A645-E5DB14ED872C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B584DADA-A9B4-4308-A645-E5DB14ED872C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B584DADA-A9B4-4308-A645-E5DB14ED872C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C21EA2D-698A-4B9E-9DA1-E875D5FA0425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C21EA2D-698A-4B9E-9DA1-E875D5FA0425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C21EA2D-698A-4B9E-9DA1-E875D5FA0425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C21EA2D-698A-4B9E-9DA1-E875D5FA0425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30835534-08D1-4F81-8571-7854B10A0AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30835534-08D1-4F81-8571-7854B10A0AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30835534-08D1-4F81-8571-7854B10A0AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30835534-08D1-4F81-8571-7854B10A0AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C788011F-9075-4ADA-85AC-B1DEC3435ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C788011F-9075-4ADA-85AC-B1DEC3435ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C788011F-9075-4ADA-85AC-B1DEC3435ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C788011F-9075-4ADA-85AC-B1DEC3435ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB94206-822C-43CE-98FE-87916B4F5639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB94206-822C-43CE-98FE-87916B4F5639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB94206-822C-43CE-98FE-87916B4F5639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB94206-822C-43CE-98FE-87916B4F5639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7274DF48-2445-462F-ACD0-CD7B2E791A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C788011F-9075-4ADA-85AC-B1DEC3435ED0} = {62888677-6873-4A9A-9D2C-87DC45786F88}
+		{6EB94206-822C-43CE-98FE-87916B4F5639} = {62888677-6873-4A9A-9D2C-87DC45786F88}
+		{7274DF48-2445-462F-ACD0-CD7B2E791A96} = {62888677-6873-4A9A-9D2C-87DC45786F88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8B1362C-5F73-4A67-9F7E-FD6BA8B2B662}
